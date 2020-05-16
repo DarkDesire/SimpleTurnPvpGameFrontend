@@ -1,0 +1,54 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <div class="title_main">
+        <h2>Simple Turn PvP Game</h2>
+    </div>
+    <div class="form">
+        <div class="panel">
+            <div class="title_sub">
+                <h2>Sign Up</h2>
+            </div>
+            <form class="form_signup">
+                <div class="line">
+                    <label class="line_label">Login:</label>
+                    <br></br>
+                    <input class="line_input" name="login" pattern="^[a-zA-Z0-9_]+$" type="text" required="" maxlength="10"
+                           placeholder="Ваш логин"/>
+
+                </div>
+                <div class="line">
+                    <label class="line_label">Email:</label>
+                    <br></br>
+                    <input class="line_input" name="email" type="email" required="" placeholder="example@example.ru"/>
+                </div>
+                <div class="line">
+                    <label class="line_label">Password:</label>
+                    <br></br>
+                    <input class="line_input" name="password" type="password" required="" placeholder="********"/>
+                </div>
+                <button class="btn btn_green btn_auth signup">Create My Account!</button>
+            </form>
+        </div>
+
+        <div class="panel">
+            <div class="title_sub">
+                <h2>Log In</h2>
+            </div>
+            <form class="form_signin" id="signup-form">
+                <div class="line">
+                    <label class="line_label">Login:</label>
+                    <br></br>
+                    <input class="line_input" name="login" pattern="^[a-zA-Z0-9_]+$" type="text" required="" maxlength="10"
+                           placeholder="Ваш логин"/>
+                </div>
+                <div class="line">
+                    <label class="line_label">Password:</label>
+                    <br></br>
+                    <input class="line_input" name="password" type="password" required="" placeholder="********"/>
+                </div>
+                <button class="btn btn_green btn_auth">LOG ME IN!</button>
+            </form>
+            <a class="btn btn_red" href="#">BACK</a>
+
+        </div>
+    </div>
+</fest:template>

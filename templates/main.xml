@@ -1,0 +1,9 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <div class="title_main"><h2>Simple Turn PvP Game</h2></div>
+    <div class="title_sub"><h2>MAIN MENU</h2></div>
+    <div>
+        <button id="btn_startGame" class="btn btn_green">START GAME</button><br></br>
+        <a class="btn btn_red" href="#login">AUTHORIZATION </a><br></br>
+        <a class="btn btn_blue" href="#scoreboard">SCOREBOARD</a><br></br>
+    </div>
+</fest:template>

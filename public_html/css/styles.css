@@ -1,0 +1,318 @@
+.container {
+    min-width: 1024px;
+    min-height: 600px;
+}
+
+.top {
+    background-color: #504646;
+    color: floralwhite;
+    height: 50px;
+    padding: 10px;
+    border: dotted 1px black;
+    border-radius: 2px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.4);
+}
+
+.top__labelHello {
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 1);
+    float: left;
+    margin-right: 100px;
+}
+
+.top__labelGame {
+    margin: 0px;
+    text-align: center;
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.top__btnGame:hover {
+    background: #c6c6c6;
+}
+
+.head {
+    max-width: 1024px;
+    max-height: 200px;
+}
+
+.gameview {
+    display: none;
+    margin-left: 200px;
+    background: #ffffff;
+    clear: both;
+}
+
+.gameview__playerPanel {
+    border-radius: 25px;
+    background: #52E687;
+    padding: 25px;
+    width: 260px;
+    height: 120px;
+    float: left;
+    margin-right: 10px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.4);
+}
+
+.gameview__enemyPanel {
+    border-radius: 25px;
+    background: #EF5151;
+    padding: 25px;
+    width: 230px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.4);
+    clear: both;
+}
+
+.gameview__btn {
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 10px;
+    background: #615D5D;
+    padding: 10px;
+    border: solid #000000 1px;
+    text-decoration: none;
+    width: 80px;
+}
+
+.gameview__btn:hover {
+    background: #3f4142;
+    text-decoration: none;
+}
+
+.gameview__roundlabel {
+    float: left;
+    margin-left: 300px;
+}
+
+.gameview__secondslabel {
+    float: left;
+    margin-left: 40px;
+}
+
+.gameView__mainView {
+    display: block;
+    margin: 0 auto;
+    border: dotted 1px black;
+    background-color: white;
+    max-width: 340px;
+    position: relative;
+    top: 80px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.gameView__scoreView {
+    display: block;
+    margin: 0 auto;
+    border: dotted 1px black;
+    background-color: white;
+    max-width: 340px;
+    position: relative;
+    top: 80px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.gameView__authView {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    max-width: 680px;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.4);
+}
+
+.title_main {
+    margin-top: 0;
+    border-radius: 5px;
+    background-color: #665851;
+}
+
+.score__table {
+    padding: 5px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: solid 1px #c7c7cd;
+}
+
+.score__table__tr_head {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #4CAF50;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    color: white;
+}
+
+.score__table__tr {
+    background-color: #f2f2f2;
+    border: solid 1px #c7c7cd;
+}
+
+.score__table__td {
+    min-width: 80px;
+    border: solid 1px #c7c7cd;
+}
+
+.score__table__td_id {
+    min-width: 20px;
+}
+
+.btn {
+    background-color: #665851;
+    color: floralwhite;
+    display: inline-block;
+    margin: 5px auto;
+    text-decoration: none;
+    border: solid 1px black;
+    border-radius: 2px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn_mm {
+    background-color: #5d6870;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.btn_mm:hover {
+    background: #3f4142;
+}
+
+.btn_red {
+    background-color: indianred;
+}
+
+.btn_right {
+    float: right;
+}
+
+.btn_green {
+    background-color: lightgreen;
+}
+
+.btn_blue {
+    background-color: #76DCEA;
+}
+
+.title_sub {
+    font-weight: 700;
+    font-size: 1em;
+    color: #888;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+.line_label {
+    font-weight: 700;
+    font-size: .8em;
+    color: #888;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+.line_input {
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: .9em;
+    color: #888;
+}
+
+.title_main h2 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+    line-height: 2.8em;
+    margin: 0 auto;
+}
+
+.panel {
+    float: left;
+    min-width: 300px;
+    min-height: 350px;
+    margin: 10px 20px 20px 20px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.4);
+}
+
+.back {
+    margin-top: 40px;
+}
+
+.matchmakingview {
+    display: none;
+    text-align: center;
+    clear: both;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 25px;
+    background: #3B3B3B;
+    padding: 25px;
+    width: 550px;
+    height: 200px;
+    color: #fff;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.4);
+}
+
+.matchmakingview__mmStatus {
+    color: #ABACA4;
+}
+
+.result {
+    display: none;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+}
+
+#roundLabel {
+    clear: both;
+    float: left;
+    margin-left: 50px;
+}
+
+#secondsLabel {
+    float: left;
+    margin-left: 50px;
+}
+
+#enemyName {
+    margin-left: 20%;
+}
+
+

@@ -1,0 +1,25 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <div class="title_main"><h2>Simple Turn PvP Game</h2></div>
+    <div class="title_sub"><h2>SCOREBOARD</h2></div>
+    <div class="score">
+        <table class="score__table">
+            <tr class="score__table__tr_head">
+                <td class="score__table__td score__table__td_id">№</td>
+                <td class="score__table__td score__table__td_name">Name</td>
+                <td class="score__table__td score__table__td_games">Games</td>
+                <td class="score__table__td score__table__td_score">Score</td>
+            </tr>
+            <fest:script>var id = 0;</fest:script>
+            <fest:each iterate="json.reverse()" index="i" value="score">
+                <fest:script>id++;</fest:script>
+                <tr class="score__table__tr">
+                    <td class="score__table__td score__table__td_id"><fest:value>id</fest:value></td>
+                    <td class="score__table__td score__table__td_name"><fest:value>score.name</fest:value></td>
+                    <td class="score__table__td score__table__td_games"><fest:value>score.games</fest:value></td>
+                    <td class="score__table__td score__table__td_score"><fest:value>score.score</fest:value></td>
+                </tr>
+            </fest:each>
+        </table>
+        <a class="btn btn_red" href="#">BACK</a>
+    </div>
+</fest:template>

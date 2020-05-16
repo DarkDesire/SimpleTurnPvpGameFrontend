@@ -1,0 +1,75 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <div class="game">
+        <div class="container">
+
+            <div class="top">
+                <a class="btn btn_right btn_red" href="#">BACK</a>
+
+                <button id="btn_findMatch" class="btn btn_right">FIND MATCH</button>
+                <div class="top__labelHello">
+                    <p>Hello,
+                        <fest:space></fest:space>
+                        <span id="myName"><fest:value>json.value</fest:value></span>
+                    </p>
+                </div>
+                <div class="top__labelGame">
+                    <p>Simple Turn PvP Game
+                    </p>
+                </div>
+            </div>
+
+
+            <div id="gameView" class="gameview">
+
+                <div id="head" class="head">
+                    <div id="roundLabel" class="head__roundlabel">
+                        <p>Round:
+                            <span id="round"></span>
+                        </p>
+                    </div>
+                    <div id="secondsLabel" class="head__secondslabel">
+                        <p>Seconds:
+                            <span id="seconds"></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="enemyPanel" class="gameview__enemyPanel">
+                    <div>
+                        <span id="enemyName"></span>
+                    </div>
+                    <div>
+                        <p>ENEMY CHOICE:
+                            <span id="enemyChoice"></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="playerPanel" class="gameview__playerPanel">
+                    <div id="playerScore">
+                        <p>YOUR CHOICE:
+                            <span id="playerChoice"></span>
+                        </p>
+                    </div>
+                    <button id="btn_rock" class="btn">ROCK</button>
+                    <button id="btn_paper" class="btn">PAPER</button>
+                    <button id="btn_scissors" class="btn">SCISSORS</button>
+                </div>
+            </div>
+
+            <div id="matchmakingView" class="matchmakingview">
+                <h1 class="matchmakingview__mmStatus">MATCHMAKING STATUS</h1>
+
+                <h2>Your game is ready</h2>
+                <button id="btn_acceptMatch" class="btn btn_mm">ACCEPT</button>
+                <button id="btn_declineMatch" class="btn btn_mm">DECLINE</button>
+            </div>
+
+
+            <div id="result" class="result">
+                <h1>
+                    <span id="resultType"></span>
+                    over!<span id="win"></span>!
+                </h1>
+            </div>
+        </div>
+    </div>
+</fest:template>
